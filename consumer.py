@@ -5,7 +5,7 @@ from contact_model import Contact
 from mongoengine import connect
 
 # Підключення до бази даних MongoDB
-connect('my_database', host='mongodb://localhost:27017/')
+connect('Cluster0', host='mongodb+srv://ms_miracle18:ryPanrIWBPIoqX0T@cluster0.d6hdlvu.mongodb.net/')
 
 # Підключення до RabbitMQ
 connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
