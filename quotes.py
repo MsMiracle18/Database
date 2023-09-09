@@ -3,7 +3,7 @@ from pymongo import MongoClient
 
 # Підключення до MongoDB
 client = MongoClient('mongodb+srv://ms_miracle18:ryPanrIWBPIoqX0T@cluster0.d6hdlvu.mongodb.net/')
-db = client['Cluster0']  # Замініть на вашу базу даних
+db = client['Cluster0']  
 
 # Завантаження авторів з JSON-файлу
 with open('authors.json', 'r') as file:
